@@ -10,7 +10,7 @@ class GuessNumberGame
         return correct;
     }
 
-    static private void Main(string[] args)
+    static private void Main()
     {
         bool win = false;
         int correct = RandomNumber();
